@@ -7,8 +7,7 @@ if (isset($_POST['username']) && isset($_POST['email'])) {
 }
 
 echo "Username: $username<br>";
-echo "Email: $email <br>";
-echo "<br>";
+echo "Email: $email <br><br>";
 
 $_SESSION['username'] = $username;
 $_SESSION['email'] = $email;

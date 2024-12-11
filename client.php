@@ -13,22 +13,9 @@ class Client {
 
     public function __toString() : string {
         
-        return __METHOD__ .PHP_EOL . "Name: $this->name" .PHP_EOL . "Password: $this->password".PHP_EOL;
+        return __FILE__ .PHP_EOL . __METHOD__ .PHP_EOL 
+            . "Name: $this->name" .PHP_EOL . "Password: $this->password".PHP_EOL;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
